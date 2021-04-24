@@ -183,7 +183,7 @@ label{
   font-weight: bolder;
   letter-spacing: 1.2px;
   margin: 30px;
-  color: #354757;
+  color: hsl(293, 28%, 12%);;
 }
 
 
@@ -346,7 +346,7 @@ S
   text-align: center;
   font-weight: 400;
   font-size: 40px;
-  color: #354757;
+  color: hsl(293, 28%, 12%);
   letter-spacing: 1.2px;
 }
 
@@ -1111,6 +1111,32 @@ div#info{
   width: 270px;
   height: 150px;
   background-color: rgba(164, 145, 181, 0.7); 
-  -webkit-transition: opacity 0.2s;
+  -webkit-transition:  0.2s;
   opacity: 0;
+}
+
+h4#Efecto{
+  display: inline-block;
+  position: relative;
+}
+
+h4#Efecto::after, h4::before{
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: currentColor;
+  top: 0.6em;
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+}
+h4#Efecto:hover::before, h4#Efecto:hover::after{
+transform: scale(1);
+
+}
+h4#Efecto::before{
+  left: -140px;
+}
+h4#Efecto::after{
+  right: -140px;
 }
