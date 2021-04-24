@@ -206,9 +206,9 @@ content: '';
   height: 3px;
   margin: 25px auto;
   border: 0;    
-  background-image: -webkit-gradient(linear,left top,right top,from(transparent),color-stop(#6CA0D1),to(transparent));
-    background-image: -o-linear-gradient(left,transparent,#6CA0D1,transparent);
-    background-image: linear-gradient(to right,transparent,#6CA0D1,transparent);
+  background-image: -webkit-gradient(linear,left top,right top,from(transparent),color-stop(#24043a),to(transparent));
+    background-image: -o-linear-gradient(left,transparent,#411c44,transparent);
+    background-image: linear-gradient(to right,transparent,#271436,transparent);
 }
 
 .text{
